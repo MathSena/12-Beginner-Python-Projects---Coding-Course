@@ -1,5 +1,4 @@
 import random
-
 # Joguinho para você tentar adivinhar um número randômico.
 def guess(x):
     random_number = random.randint(1,x)
@@ -37,3 +36,4 @@ def computer_guess(x):
     print(f'Parabéns! O computador acertou! O número é {guess}')
 
 computer_guess(10)
+
